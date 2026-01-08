@@ -1,20 +1,41 @@
-# Tip & Total Calculator (Python)
+# Tip Calculator (Python)
 
-A beginner-friendly Python program that calculates the final cost of a meal based on a user-provided tip percentage and meal costs.
+A simple Python script that calculates the tip amount and total bill based on user input. This project demonstrates basic input handling, arithmetic operations, and formatted output in a clean and readable structure.
 
-## What it does
-- Asks the user for the meal price
-- Asks for the tip percentage
-- Calculates the tip amount
-- Adds the tip to the meal price
-- Rounds the final total to two decimal places
+## How It Works
+The program prompts the user for:
+- The bill amount
+- The tip percentage
 
-## What I practiced
-- Input handling
-- Arithmetic logic
-- Rounding values
-- Writing clean, readable code
-- Debugging and correcting logic errors
+It then calculates:
+- The tip amount
+- The final total after adding the tip
 
-## Why I built it
-This was my first résumé-worthy Python project. I wanted something small, practical, and fully understood, not copied. It helped me build confidence in writing and explaining my own code.
+All values are rounded to two decimal places for clarity.
+
+## Example Interaction
+The script runs in the terminal. A typical session looks like:
+
+Bill Amount: 50  
+Tip Percentage: 20  
+Tip Amount: 10.0  
+Total Amount: 60.0  
+
+## Purpose
+This project was created to practice writing simple Python scripts that interact with user input and perform basic calculations. It serves as a foundational example of clean scripting and formatted output.
+
+## Improvements Made
+- Cleaned and organized the code for readability
+- Ensured proper rounding of numerical output
+- Added clear variable names for maintainability
+- Structured the script for easy modification or expansion
+
+## What I Learned
+- Handling user input in Python
+- Performing arithmetic operations
+- Formatting numerical output
+- Writing clear and readable Python code
+
+## Tech Used
+- Python 3  
+- Git and GitHub
