@@ -1,13 +1,19 @@
 # Asks the meal price
 meal_price = float(input("What is the meal price?")) 
 
-if meal_price <=0:
-  print("Invalid meal price.")
-  exit()
+while True 
+if meal_price > 0:
+ break
+else:   print("Invalid meal price.")
+
 
 # Asks the tip price
+while True:
+  
 tip_price = float(input("How much will you tip?"))
-if tip_price < 0:
+if tip_price > 0:
+  break
+else:
   print("Positive numbers only.")
 
 # Calculates the tip
